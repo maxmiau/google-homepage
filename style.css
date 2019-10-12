@@ -1,0 +1,103 @@
+/* Id selectors */
+#grid-icon {
+    width: 30px;
+    height: 30px;
+}
+#profile-pic {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+#google-logo {
+    padding-top: 109px;
+}
+#boxes {
+    margin: 15px 4px;
+    padding: 0px 16px;
+}
+/* class selectors */
+.button {
+    margin: 0px 20px 0px 0px;
+    padding: 10px 15px;
+    background-color: rgb(238,238,238);
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.button:hover {
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: lightgray;
+    cursor: pointer;
+}
+.footer-right {
+    float: right;
+    text-align: right;
+    margin-right: 30px;
+    border-top: 1px solid lightgrey;
+    background-color: rgb(238,238,238);
+}
+.footer-left {
+    float: left;
+    text-align: left;
+    margin-left: 30px;
+    border-top: 1px solid lightgrey;
+    background-color: rgb(238,238,238);
+}
+/* Elemnts */
+nav {
+    text-align: right;
+    margin: 0px;
+    padding: 10px;
+}
+li {
+    display: inline;
+    padding: 0px 10px 0px 0px;
+}
+ul {
+    padding-left: 30px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;  
+}
+a {
+    text-decoration: none;
+    color: black;
+    padding-right: 15px;
+}
+a:hover {
+    text-decoration: underline;
+}
+main {
+    text-align: center;
+}
+input {
+    width: 580px;
+    height: 42px;
+    border: 1px solid;
+    border-color: lightgrey;
+    border-radius: 22px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(238,238,238);
+    color: grey;
+
+    border-top: 1px solid lightgrey;
+    border-bottom: 0px solid lightgrey;
+}
+footer p {
+    margin-left: 30px;
+    display: block;
+    font-size: 15px;
+}
+footer a {
+    color: gray;
+}
